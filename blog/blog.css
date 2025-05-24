@@ -1,0 +1,103 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #AF1B3F;
+    background-color: #white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Lora', Impact, serif;
+    color: #AF1B3F;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    background-color: #473144;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #EFC69B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Articles Section */
+#articles {
+    width: 65%;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+article h3 {
+    font-family: 'Lora', Impact, serif;
+    color: #AF1B3F;
+}
+
+article time {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background-color: #473144;
+    color: #EFC69B;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #473144;
+    color: #EFC69B;
+    margin-top: 20px;
+}
